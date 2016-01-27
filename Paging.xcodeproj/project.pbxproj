@@ -17,6 +17,8 @@
 		F23627BD1C595E8100E4AAB3 /* Tweets.m in Sources */ = {isa = PBXBuildFile; fileRef = F23627BB1C595E8100E4AAB3 /* Tweets.m */; };
 		F23627BE1C595E8100E4AAB3 /* Tweets.xib in Resources */ = {isa = PBXBuildFile; fileRef = F23627BC1C595E8100E4AAB3 /* Tweets.xib */; };
 		F23627C11C595FA300E4AAB3 /* 2016072.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F23627C01C595FA300E4AAB3 /* 2016072.jpg */; };
+		F23627C51C597CB200E4AAB3 /* TwitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F23627C31C597CB200E4AAB3 /* TwitCell.m */; };
+		F23627C61C597CB200E4AAB3 /* TwitCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F23627C41C597CB200E4AAB3 /* TwitCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,9 @@
 		F23627BB1C595E8100E4AAB3 /* Tweets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tweets.m; path = Controllers/Tweets/Tweets.m; sourceTree = "<group>"; };
 		F23627BC1C595E8100E4AAB3 /* Tweets.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Tweets.xib; path = Controllers/Tweets/Tweets.xib; sourceTree = "<group>"; };
 		F23627C01C595FA300E4AAB3 /* 2016072.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2016072.jpg; sourceTree = "<group>"; };
+		F23627C21C597CB200E4AAB3 /* TwitCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwitCell.h; path = Controllers/Tweets/TwitCell.h; sourceTree = "<group>"; };
+		F23627C31C597CB200E4AAB3 /* TwitCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwitCell.m; path = Controllers/Tweets/TwitCell.m; sourceTree = "<group>"; };
+		F23627C41C597CB200E4AAB3 /* TwitCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TwitCell.xib; path = Controllers/Tweets/TwitCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +145,9 @@
 				F23627BA1C595E8100E4AAB3 /* Tweets.h */,
 				F23627BB1C595E8100E4AAB3 /* Tweets.m */,
 				F23627BC1C595E8100E4AAB3 /* Tweets.xib */,
+				F23627C21C597CB200E4AAB3 /* TwitCell.h */,
+				F23627C31C597CB200E4AAB3 /* TwitCell.m */,
+				F23627C41C597CB200E4AAB3 /* TwitCell.xib */,
 			);
 			name = Tweets;
 			sourceTree = "<group>";
@@ -214,6 +222,7 @@
 				F23627A71C5958E500E4AAB3 /* Assets.xcassets in Resources */,
 				F23627A51C5958E500E4AAB3 /* Main.storyboard in Resources */,
 				F23627BE1C595E8100E4AAB3 /* Tweets.xib in Resources */,
+				F23627C61C597CB200E4AAB3 /* TwitCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F23627A21C5958E500E4AAB3 /* Home.m in Sources */,
+				F23627C51C597CB200E4AAB3 /* TwitCell.m in Sources */,
 				F236279F1C5958E500E4AAB3 /* AppDelegate.m in Sources */,
 				F23627BD1C595E8100E4AAB3 /* Tweets.m in Sources */,
 				F23627B51C59594A00E4AAB3 /* CAPSPageMenu.m in Sources */,

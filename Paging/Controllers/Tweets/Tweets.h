@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TwitCell.h"
 
-@interface Tweets : UIViewController
+@interface Tweets : UIViewController<UITableViewDataSource, UITabBarDelegate>
 
+@property (strong, nonatomic) IBOutlet UITableView *tblTweets;
 @end

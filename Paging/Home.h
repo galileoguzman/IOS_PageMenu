@@ -11,6 +11,9 @@
 
 @interface Home : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIImageView *imgProfile;
+@property (strong, nonatomic) IBOutlet UIButton *lblTwiterAccount;
+@property (strong, nonatomic) IBOutlet UIView *vPages;
 
 @end
 
