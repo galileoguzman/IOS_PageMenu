@@ -19,6 +19,10 @@
 		F23627C11C595FA300E4AAB3 /* 2016072.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F23627C01C595FA300E4AAB3 /* 2016072.jpg */; };
 		F23627C51C597CB200E4AAB3 /* TwitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F23627C31C597CB200E4AAB3 /* TwitCell.m */; };
 		F23627C61C597CB200E4AAB3 /* TwitCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F23627C41C597CB200E4AAB3 /* TwitCell.xib */; };
+		F23627CB1C59823600E4AAB3 /* Collage.m in Sources */ = {isa = PBXBuildFile; fileRef = F23627C91C59823600E4AAB3 /* Collage.m */; };
+		F23627CC1C59823600E4AAB3 /* Collage.xib in Resources */ = {isa = PBXBuildFile; fileRef = F23627CA1C59823600E4AAB3 /* Collage.xib */; };
+		F23627CE1C5982AD00E4AAB3 /* Scarlett-Johansson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F23627CD1C5982AD00E4AAB3 /* Scarlett-Johansson.jpg */; };
+		F23627D01C5983E900E4AAB3 /* jennifer-lawrence.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F23627CF1C5983E900E4AAB3 /* jennifer-lawrence.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +45,11 @@
 		F23627C21C597CB200E4AAB3 /* TwitCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwitCell.h; path = Controllers/Tweets/TwitCell.h; sourceTree = "<group>"; };
 		F23627C31C597CB200E4AAB3 /* TwitCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwitCell.m; path = Controllers/Tweets/TwitCell.m; sourceTree = "<group>"; };
 		F23627C41C597CB200E4AAB3 /* TwitCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TwitCell.xib; path = Controllers/Tweets/TwitCell.xib; sourceTree = "<group>"; };
+		F23627C81C59823600E4AAB3 /* Collage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Collage.h; path = Controllers/Collage/Collage.h; sourceTree = "<group>"; };
+		F23627C91C59823600E4AAB3 /* Collage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Collage.m; path = Controllers/Collage/Collage.m; sourceTree = "<group>"; };
+		F23627CA1C59823600E4AAB3 /* Collage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Collage.xib; path = Controllers/Collage/Collage.xib; sourceTree = "<group>"; };
+		F23627CD1C5982AD00E4AAB3 /* Scarlett-Johansson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Scarlett-Johansson.jpg"; sourceTree = "<group>"; };
+		F23627CF1C5983E900E4AAB3 /* jennifer-lawrence.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jennifer-lawrence.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +133,7 @@
 		F23627B71C595D5300E4AAB3 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F23627C71C59821800E4AAB3 /* Collage */,
 				F23627B91C595E4200E4AAB3 /* Tweets */,
 				F23627B81C595D6900E4AAB3 /* Home */,
 			);
@@ -155,9 +165,21 @@
 		F23627BF1C595F8900E4AAB3 /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				F23627CF1C5983E900E4AAB3 /* jennifer-lawrence.jpg */,
+				F23627CD1C5982AD00E4AAB3 /* Scarlett-Johansson.jpg */,
 				F23627C01C595FA300E4AAB3 /* 2016072.jpg */,
 			);
 			name = Media;
+			sourceTree = "<group>";
+		};
+		F23627C71C59821800E4AAB3 /* Collage */ = {
+			isa = PBXGroup;
+			children = (
+				F23627C81C59823600E4AAB3 /* Collage.h */,
+				F23627C91C59823600E4AAB3 /* Collage.m */,
+				F23627CA1C59823600E4AAB3 /* Collage.xib */,
+			);
+			name = Collage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,11 +240,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F23627C11C595FA300E4AAB3 /* 2016072.jpg in Resources */,
+				F23627D01C5983E900E4AAB3 /* jennifer-lawrence.jpg in Resources */,
+				F23627CC1C59823600E4AAB3 /* Collage.xib in Resources */,
 				F23627AA1C5958E500E4AAB3 /* LaunchScreen.storyboard in Resources */,
 				F23627A71C5958E500E4AAB3 /* Assets.xcassets in Resources */,
 				F23627A51C5958E500E4AAB3 /* Main.storyboard in Resources */,
 				F23627BE1C595E8100E4AAB3 /* Tweets.xib in Resources */,
 				F23627C61C597CB200E4AAB3 /* TwitCell.xib in Resources */,
+				F23627CE1C5982AD00E4AAB3 /* Scarlett-Johansson.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +263,7 @@
 				F236279F1C5958E500E4AAB3 /* AppDelegate.m in Sources */,
 				F23627BD1C595E8100E4AAB3 /* Tweets.m in Sources */,
 				F23627B51C59594A00E4AAB3 /* CAPSPageMenu.m in Sources */,
+				F23627CB1C59823600E4AAB3 /* Collage.m in Sources */,
 				F236279C1C5958E500E4AAB3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

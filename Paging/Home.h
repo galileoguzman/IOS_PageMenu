@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "CAPSPageMenu.h"
 
+#import "Tweets.h"
+#import "Collage.h"
+
 @interface Home : UIViewController
 
 @property (strong, nonatomic) IBOutlet UIImageView *imgProfile;
