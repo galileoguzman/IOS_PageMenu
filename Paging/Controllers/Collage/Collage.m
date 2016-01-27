@@ -33,7 +33,7 @@
         
         img.frame = CGRectMake(
                      0,
-                     self.svCollage.frame.size.height*i,
+                     200*i,
                      self.svCollage.frame.size.width,
                      200);
         
@@ -46,7 +46,7 @@
         [self.svCollage addSubview:img];
     }
     
-    self.svCollage.contentSize = CGSizeMake(self.svCollage.frame.size.width, self.svCollage.frame.size.height * 10);
+    self.svCollage.contentSize = CGSizeMake(self.svCollage.frame.size.width, 200 * 11);
 }
 
 @end
