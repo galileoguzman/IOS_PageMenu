@@ -18,7 +18,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.imgProfile.layer.cornerRadius = self.imgProfile.frame.size.height / 2;
+    self.imgProfile.layer.masksToBounds = YES;
     
     [self initController];
 }
@@ -26,6 +28,11 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
 }
 
 -(void) initController
