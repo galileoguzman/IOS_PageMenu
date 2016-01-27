@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Tweets.h
 //  Paging
 //
 //  Created by Galileo Guzman on 27/01/16.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CAPSPageMenu.h"
 
-@interface Home : UIViewController
-
+@interface Tweets : UIViewController
 
 @end
-

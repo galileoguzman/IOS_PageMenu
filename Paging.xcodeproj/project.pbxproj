@@ -14,6 +14,9 @@
 		F23627A71C5958E500E4AAB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F23627A61C5958E500E4AAB3 /* Assets.xcassets */; };
 		F23627AA1C5958E500E4AAB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23627A81C5958E500E4AAB3 /* LaunchScreen.storyboard */; };
 		F23627B51C59594A00E4AAB3 /* CAPSPageMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = F23627B41C59594A00E4AAB3 /* CAPSPageMenu.m */; };
+		F23627BD1C595E8100E4AAB3 /* Tweets.m in Sources */ = {isa = PBXBuildFile; fileRef = F23627BB1C595E8100E4AAB3 /* Tweets.m */; };
+		F23627BE1C595E8100E4AAB3 /* Tweets.xib in Resources */ = {isa = PBXBuildFile; fileRef = F23627BC1C595E8100E4AAB3 /* Tweets.xib */; };
+		F23627C11C595FA300E4AAB3 /* 2016072.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F23627C01C595FA300E4AAB3 /* 2016072.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,10 @@
 		F23627AB1C5958E500E4AAB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F23627B31C59594A00E4AAB3 /* CAPSPageMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAPSPageMenu.h; sourceTree = "<group>"; };
 		F23627B41C59594A00E4AAB3 /* CAPSPageMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAPSPageMenu.m; sourceTree = "<group>"; };
+		F23627BA1C595E8100E4AAB3 /* Tweets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tweets.h; path = Controllers/Tweets/Tweets.h; sourceTree = "<group>"; };
+		F23627BB1C595E8100E4AAB3 /* Tweets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tweets.m; path = Controllers/Tweets/Tweets.m; sourceTree = "<group>"; };
+		F23627BC1C595E8100E4AAB3 /* Tweets.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Tweets.xib; path = Controllers/Tweets/Tweets.xib; sourceTree = "<group>"; };
+		F23627C01C595FA300E4AAB3 /* 2016072.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2016072.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +68,10 @@
 		F23627991C5958E500E4AAB3 /* Paging */ = {
 			isa = PBXGroup;
 			children = (
+				F23627BF1C595F8900E4AAB3 /* Media */,
+				F23627B71C595D5300E4AAB3 /* Controllers */,
+				F23627B61C595D4800E4AAB3 /* Main */,
 				F23627B11C5958ED00E4AAB3 /* Libraries */,
-				F236279D1C5958E500E4AAB3 /* AppDelegate.h */,
-				F236279E1C5958E500E4AAB3 /* AppDelegate.m */,
-				F23627A01C5958E500E4AAB3 /* Home.h */,
-				F23627A11C5958E500E4AAB3 /* Home.m */,
 				F23627A31C5958E500E4AAB3 /* Main.storyboard */,
 				F23627A61C5958E500E4AAB3 /* Assets.xcassets */,
 				F23627A81C5958E500E4AAB3 /* LaunchScreen.storyboard */,
@@ -99,6 +105,51 @@
 			);
 			name = CAPSPageMenu;
 			path = Libs/CAPSPageMenu;
+			sourceTree = "<group>";
+		};
+		F23627B61C595D4800E4AAB3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F236279D1C5958E500E4AAB3 /* AppDelegate.h */,
+				F236279E1C5958E500E4AAB3 /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		F23627B71C595D5300E4AAB3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F23627B91C595E4200E4AAB3 /* Tweets */,
+				F23627B81C595D6900E4AAB3 /* Home */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F23627B81C595D6900E4AAB3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F23627A01C5958E500E4AAB3 /* Home.h */,
+				F23627A11C5958E500E4AAB3 /* Home.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		F23627B91C595E4200E4AAB3 /* Tweets */ = {
+			isa = PBXGroup;
+			children = (
+				F23627BA1C595E8100E4AAB3 /* Tweets.h */,
+				F23627BB1C595E8100E4AAB3 /* Tweets.m */,
+				F23627BC1C595E8100E4AAB3 /* Tweets.xib */,
+			);
+			name = Tweets;
+			sourceTree = "<group>";
+		};
+		F23627BF1C595F8900E4AAB3 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				F23627C01C595FA300E4AAB3 /* 2016072.jpg */,
+			);
+			name = Media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,9 +209,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F23627C11C595FA300E4AAB3 /* 2016072.jpg in Resources */,
 				F23627AA1C5958E500E4AAB3 /* LaunchScreen.storyboard in Resources */,
 				F23627A71C5958E500E4AAB3 /* Assets.xcassets in Resources */,
 				F23627A51C5958E500E4AAB3 /* Main.storyboard in Resources */,
+				F23627BE1C595E8100E4AAB3 /* Tweets.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +226,7 @@
 			files = (
 				F23627A21C5958E500E4AAB3 /* Home.m in Sources */,
 				F236279F1C5958E500E4AAB3 /* AppDelegate.m in Sources */,
+				F23627BD1C595E8100E4AAB3 /* Tweets.m in Sources */,
 				F23627B51C59594A00E4AAB3 /* CAPSPageMenu.m in Sources */,
 				F236279C1C5958E500E4AAB3 /* main.m in Sources */,
 			);
