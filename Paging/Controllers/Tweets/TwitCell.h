@@ -13,4 +13,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *lblAccount;
 @property (strong, nonatomic) IBOutlet UILabel *lblTwit;
 
+@property (strong, nonatomic) IBOutlet UIView *vContent;
+
+
 @end

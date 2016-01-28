@@ -19,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.imgProfile.layer.opacity = 0.7;
     self.imgProfile.layer.cornerRadius = self.imgProfile.frame.size.height / 2;
     self.imgProfile.layer.masksToBounds = YES;
     
@@ -50,9 +51,9 @@
 
     // options for design
     NSDictionary *parameters = @{
-                                 CAPSPageMenuOptionScrollMenuBackgroundColor: [UIColor colorWithRed:30.0/255.0 green:30.0/255.0 blue:30.0/255.0 alpha:1.0],
-                                 CAPSPageMenuOptionViewBackgroundColor: [UIColor colorWithRed:20.0/255.0 green:20.0/255.0 blue:20.0/255.0 alpha:1.0],
-                                 CAPSPageMenuOptionSelectionIndicatorColor: [UIColor orangeColor],
+                                 CAPSPageMenuOptionScrollMenuBackgroundColor: [UIColor colorWithRed:34.0/255.0 green:165.0/255.0 blue:182.0/255.0 alpha:1.0],
+                                 CAPSPageMenuOptionViewBackgroundColor: [UIColor colorWithRed:255.0/255.0 green:103.0/255.0 blue:59.0/255.0 alpha:1.0],
+                                 CAPSPageMenuOptionSelectionIndicatorColor: [UIColor whiteColor],
                                  CAPSPageMenuOptionBottomMenuHairlineColor: [UIColor colorWithRed:70.0/255.0 green:70.0/255.0 blue:70.0/255.0 alpha:1.0],
                                  CAPSPageMenuOptionMenuItemFont: [UIFont fontWithName:@"HelveticaNeue" size:13.0],
                                  CAPSPageMenuOptionMenuHeight: @(40.0),
