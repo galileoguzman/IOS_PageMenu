@@ -29,7 +29,7 @@
 }
 
 - (void) initController{
-    self.arTweets = @[@"IOS is awesome", @"Android is cool", @"I gonna be the best runner from Puerto Escondigo Oaxaca", @"Puerto Escondigo has the best waves for surfing", @"The sun is sadly today"];
+    self.arTweets = @[@"IOS is awesome", @"Android is cool", @"I gonna read 'Seven mobile apps on seven weeks' book.", @"Puerto Escondigo has the best waves for surfing", @"The sun is sadly today", @"The Pluma Hidalgo's coffee is the best I tasted.", @"It's easier that one wall tell you 'End off' that woman"];
 }
 
 #pragma mark - tableview methods
@@ -47,7 +47,7 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 80;
+    return 75;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath

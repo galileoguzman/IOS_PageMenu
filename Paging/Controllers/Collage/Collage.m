@@ -28,13 +28,15 @@
 
 -(void)initController{
     
+    CGRect screenRect = [[UIScreen mainScreen] bounds];
+    
     for (int i = 0; i < 10; i++) {
         UIImageView *img = [[UIImageView alloc] init];
         
         img.frame = CGRectMake(
                      0,
                      200*i,
-                     self.svCollage.frame.size.width,
+                     screenRect.size.width,
                      200);
         
         if (i % 2 == 0) {
@@ -46,7 +48,7 @@
         [self.svCollage addSubview:img];
     }
     
-    self.svCollage.contentSize = CGSizeMake(self.svCollage.frame.size.width, 200 * 11);
+    self.svCollage.contentSize = CGSizeMake(screenRect.size.width, 200 * 11);
 }
 
 @end
