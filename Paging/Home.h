@@ -12,6 +12,7 @@
 
 #import "Tweets.h"
 #import "Collage.h"
+#import "Settings.h"
 
 @interface Home : UIViewController
 

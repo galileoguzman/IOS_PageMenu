@@ -44,10 +44,13 @@
     controller1.title = @"Tweets";
     
     Collage *controller2 = [[Collage alloc]initWithNibName:@"Collage" bundle:nil];
-    controller2.title = @"Tweets";
+    controller2.title = @"Collage";
+    
+    Settings *controller3    = [self.storyboard instantiateViewControllerWithIdentifier:@"settingsView"];
+    controller3.title = @"Settings";
     
     // Array with child controllers
-    NSArray *controllerArray = @[controller1, controller2];
+    NSArray *controllerArray = @[controller1, controller2, controller3];
 
     // options for design
     NSDictionary *parameters = @{

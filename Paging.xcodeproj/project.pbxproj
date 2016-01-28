@@ -23,6 +23,7 @@
 		F23627CC1C59823600E4AAB3 /* Collage.xib in Resources */ = {isa = PBXBuildFile; fileRef = F23627CA1C59823600E4AAB3 /* Collage.xib */; };
 		F23627CE1C5982AD00E4AAB3 /* Scarlett-Johansson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F23627CD1C5982AD00E4AAB3 /* Scarlett-Johansson.jpg */; };
 		F23627D01C5983E900E4AAB3 /* jennifer-lawrence.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F23627CF1C5983E900E4AAB3 /* jennifer-lawrence.jpg */; };
+		F23627D41C59963400E4AAB3 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = F23627D31C59963400E4AAB3 /* Settings.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,8 @@
 		F23627CA1C59823600E4AAB3 /* Collage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Collage.xib; path = Controllers/Collage/Collage.xib; sourceTree = "<group>"; };
 		F23627CD1C5982AD00E4AAB3 /* Scarlett-Johansson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Scarlett-Johansson.jpg"; sourceTree = "<group>"; };
 		F23627CF1C5983E900E4AAB3 /* jennifer-lawrence.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jennifer-lawrence.jpg"; sourceTree = "<group>"; };
+		F23627D21C59963400E4AAB3 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Settings.h; path = Controllers/Settings/Settings.h; sourceTree = "<group>"; };
+		F23627D31C59963400E4AAB3 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Settings.m; path = Controllers/Settings/Settings.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,7 @@
 		F23627B71C595D5300E4AAB3 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F23627D11C5995D400E4AAB3 /* Settings */,
 				F23627C71C59821800E4AAB3 /* Collage */,
 				F23627B91C595E4200E4AAB3 /* Tweets */,
 				F23627B81C595D6900E4AAB3 /* Home */,
@@ -180,6 +184,15 @@
 				F23627CA1C59823600E4AAB3 /* Collage.xib */,
 			);
 			name = Collage;
+			sourceTree = "<group>";
+		};
+		F23627D11C5995D400E4AAB3 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F23627D21C59963400E4AAB3 /* Settings.h */,
+				F23627D31C59963400E4AAB3 /* Settings.m */,
+			);
+			name = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +277,7 @@
 				F23627BD1C595E8100E4AAB3 /* Tweets.m in Sources */,
 				F23627B51C59594A00E4AAB3 /* CAPSPageMenu.m in Sources */,
 				F23627CB1C59823600E4AAB3 /* Collage.m in Sources */,
+				F23627D41C59963400E4AAB3 /* Settings.m in Sources */,
 				F236279C1C5958E500E4AAB3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
